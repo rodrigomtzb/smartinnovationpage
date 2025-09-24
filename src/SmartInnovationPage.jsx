@@ -36,7 +36,18 @@ export default function SmartInnovationPage() {
       <header className="fixed w-full z-40 bg-white/60 backdrop-blur-sm border-b border-transparent">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-600 to-cyan-500 flex items-center justify-center text-white font-bold">SI</div>
+            {/* <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-600 to-cyan-500 flex items-center justify-center text-white font-bold">SI</div> */}
+
+            <motion.img
+              src="/src/assets/logo-fav.png"
+              alt="Smart Innovation Systems Logo"
+              className="w-10 h-10 bg-white p-1 rounded-lg object-contain shadow-md"
+              loading="lazy"
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
+            />
+
             <div>
               <h1 className="text-sm font-semibold">SMART INNOVATION SYSTEMS</h1>
               <p className="text-xs text-slate-500">Business software & cloud solutions</p>
