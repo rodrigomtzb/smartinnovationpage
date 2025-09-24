@@ -1,1 +1,0 @@
-import{j as s,T as e,c as t}from"./index-CH3jcJt6.js";const o=()=>s.jsxs(s.Fragment,{children:[s.jsx(e,{title:"Sesiones"}),s.jsx(t,{icon:"ui-checks",section:"Sesiones",text:"Lista de Sesiones",to:"list"})]});export{o as default};
