@@ -39,7 +39,7 @@ export default function SmartInnovationPage() {
             {/* <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-600 to-cyan-500 flex items-center justify-center text-white font-bold">SI</div> */}
 
             <motion.img
-              src="/src/assets/logo-fav.png"
+              src="/logo-fav.png"
               alt="Smart Innovation Systems Logo"
               className="w-10 h-10 bg-white p-1 rounded-lg object-contain shadow-md"
               loading="lazy"
@@ -90,12 +90,12 @@ export default function SmartInnovationPage() {
             <p className="mt-6 text-slate-600 max-w-xl">Diseñamos e implementamos soluciones web y móviles con un enfoque en automatización, visibilidad operativa y rapidez de despliegue. Soluciones pensadas para PYMEs que quieren dar el salto tecnológico.</p>
 
             <div className="mt-8 flex gap-4">
-              <a href="#contact" className="px-6 py-3 rounded-lg bg-indigo-600 text-white font-semibold shadow hover:opacity-95">Solicitar demo</a>
+              {/* <a href="#contact" className="px-6 py-3 rounded-lg bg-indigo-600 text-white font-semibold shadow hover:opacity-95">Solicitar demo</a> */}
               <a href="#services" className="px-6 py-3 rounded-lg border border-slate-200 text-slate-700">Ver servicios</a>
             </div>
 
             <div className="mt-8 grid grid-cols-2 gap-4 text-xs text-slate-500">
-              <div className="p-3 bg-slate-50 rounded-lg border">Tecnologías: React · Java · Spring Boot · AWS</div>
+              <div className="p-3 bg-slate-50 rounded-lg border">Sin límites: cualquier lenguaje, toda tecnología, expertos creando futuro en la nube.</div>
               <div className="p-3 bg-slate-50 rounded-lg border">Entregas: MVP rápido · Integración · Soporte</div>
             </div>
           </motion.div>
@@ -126,7 +126,7 @@ export default function SmartInnovationPage() {
           <div>
             <h3 className="text-indigo-600 font-semibold">Quiénes Somos</h3>
             <h2 className="mt-3 text-3xl font-extrabold">Somos un equipo de ingenieros y diseñadores que hacen que la tecnología funcione para ti.</h2>
-            <p className="mt-6 text-slate-600">En SMART INNOVATION SYSTEMS unimos experiencia en Java, React, Cloud y UX para crear productos digitales que reducen costos, mejoran la visibilidad operacional y transforman la experiencia del cliente.</p>
+            <p className="mt-6 text-slate-600">En SMART INNOVATION SYSTEMS integramos tecnología avanzada y experiencia en Cloud y UX para crear soluciones digitales que optimizan costos, potencian la operación y transforman la experiencia del cliente.</p>
             <ul className="mt-6 space-y-3 text-slate-600">
               <li>• 12+ años en fintech y servicios empresariales.</li>
               <li>• Proyectos desde MVP hasta sistemas en producción.</li>
@@ -198,7 +198,7 @@ export default function SmartInnovationPage() {
         <div className="mt-8 grid md:grid-cols-3 gap-6">
           <div className="p-6 bg-white rounded-lg border">
             <h4 className="font-semibold">Desarrollo a medida</h4>
-            <p className="mt-3 text-sm text-slate-600">Backends en Java (Spring Boot), frontends en React y aplicaciones móviles híbridas.</p>
+            <p className="mt-3 text-sm text-slate-600">Microservicios escalables, experiencias digitales intuitivas y aplicaciones móviles de alto rendimiento.</p>
           </div>
           <div className="p-6 bg-white rounded-lg border">
             <h4 className="font-semibold">Integraciones</h4>
@@ -206,7 +206,7 @@ export default function SmartInnovationPage() {
           </div>
           <div className="p-6 bg-white rounded-lg border">
             <h4 className="font-semibold">Cloud & DevOps</h4>
-            <p className="mt-3 text-sm text-slate-600">Despliegue en AWS o Google Cloud con pipelines, infra como código y monitoreo.</p>
+            <p className="mt-3 text-sm text-slate-600">Despliegue en la Nube con pipelines, infra como código y monitoreo.</p>
           </div>
           <div className="p-6 bg-white rounded-lg border">
             <h4 className="font-semibold">UX & Diseño</h4>
@@ -271,10 +271,10 @@ export default function SmartInnovationPage() {
             <div className="text-sm text-slate-400">Automatización · Visibilidad · Crecimiento</div>
           </div>
           <div className="text-sm text-slate-400">© {new Date().getFullYear()} SMART INNOVATION SYSTEMS — Todos los derechos reservados</div>
-          <div className="flex gap-3">
+          {/* <div className="flex gap-3">
             <a className="text-slate-400 hover:text-white text-sm">LinkedIn</a>
             <a className="text-slate-400 hover:text-white text-sm">Twitter</a>
-          </div>
+          </div> */}
         </div>
       </footer>
     </div>
