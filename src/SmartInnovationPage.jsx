@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 import { MessageSquare, BarChart2, Layers } from "lucide-react"
 import { ParallaxProvider, Parallax } from "react-scroll-parallax"
 
@@ -69,6 +69,7 @@ export default function SmartInnovationPage() {
             <a href="#whatsapp" className="hover:text-indigo-600 transition-colors">WhatsApp</a>
             <a href="#mission" className="hover:text-indigo-600 transition-colors">Misión</a>
             <a href="#vision" className="hover:text-indigo-600 transition-colors">Visión</a>
+            <a href="/privacidad" className="hover:text-indigo-600 transition-colors">Política de Privacidad</a>
           </nav>
           <button className="md:hidden p-2 rounded-lg">☰</button>
         </div>
