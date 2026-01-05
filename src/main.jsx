@@ -15,8 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Routes>
           <Route path="/" element={<SmartInnovationPage />} />
           <Route path="/privacidad" element={<PrivacyPolicy />} />
-          <Route path="/condiciones-servicio" element={<CondicionesServicio />} />
-          <Route path="/eliminacion-datos" element={<EliminacionDatos />} />
+          <Route path="/condicionesservicio" element={<CondicionesServicio />} />
+          <Route path="/eliminaciondatos" element={<EliminacionDatos />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
