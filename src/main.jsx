@@ -5,6 +5,8 @@ import { HelmetProvider } from 'react-helmet-async' // Importa esto
 import './index.css'
 import SmartInnovationPage from './SmartInnovationPage'
 import PrivacyPolicy from './PrivacyPolicy'
+import CondicionesServicio from './CondicionesServicio'
+import EliminacionDatos from './EliminacionDatos'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -13,6 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Routes>
           <Route path="/" element={<SmartInnovationPage />} />
           <Route path="/privacidad" element={<PrivacyPolicy />} />
+          <Route path="/condiciones-servicio" element={<CondicionesServicio />} />
+          <Route path="/eliminacion-datos" element={<EliminacionDatos />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
