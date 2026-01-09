@@ -1,7 +1,183 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  @apply bg-white text-slate-800;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #ffffff;
+  color: #0f172a;
+  line-height: 1.6;
+}
+
+.page {
+  overflow-x: hidden;
+}
+
+/* ================= HEADER ================= */
+.header {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: auto;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand img {
+  width: 40px;
+}
+
+.menu {
+  display: flex;
+  gap: 18px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0f172a;
+}
+
+/* ================= HERO ================= */
+.hero {
+  padding: 90px 20px;
+  background: linear-gradient(180deg, #f8fafc, #ffffff);
+}
+
+.hero-inner {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.tagline {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #2563eb;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin: 20px 0;
+}
+
+.hero h1 span {
+  color: #2563eb;
+}
+
+.hero-text {
+  color: #475569;
+  margin-bottom: 24px;
+}
+
+.hero-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.08);
+}
+
+/* ================= SECTIONS ================= */
+.section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 90px 20px;
+  text-align: center;
+}
+
+.section.alt {
+  background: #f8fafc;
+}
+
+.section h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+/* ================= CARDS (FIX DEFINITIVO) ================= */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  margin-top: 40px;
+  justify-items: center;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+  width: 100%;
+  max-width: 360px;
+  text-align: left;
+}
+
+.card.center {
+  text-align: center;
+}
+
+/* ================= CTA ================= */
+.cta,
+.cta-primary {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  border-radius: 999px;
+  background: #22c55e;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cta-primary {
+  background: #2563eb;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  padding: 40px 20px;
+  background: #0f172a;
+  color: #e5e7eb;
+  text-align: center;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .section h2 {
+    font-size: 28px;
+  }
 }
