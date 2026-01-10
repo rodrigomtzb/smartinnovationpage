@@ -123,9 +123,13 @@ export default function PrivacyPolicy() {
     <ParallaxProvider>
         <div className="min-h-screen text-slate-800 bg-white antialiased">
           <Helmet>
-            <title>SMART INNOVATION SYSTEMS — Automate. Visualize. Grow.</title>
-            <meta name="description" content="SMART INNOVATION SYSTEMS: soluciones de software para PYMEs, automatización de procesos, CRMs, integraciones en la nube y consultoría tecnológica." />
             <meta name="keywords" content="software, automatización, CRM, cloud, AWS, Google Cloud, React, Java, Spring Boot, innovación" />
+            <title>Política de Privacidad — Smart Innovation Systems</title>
+            <meta name="description" content="Política de privacidad y tratamiento de datos de Smart Innovation Systems." />
+            {/* Estas etiquetas son para que el bot de Meta sea feliz */}
+            <meta property="og:title" content="Política de Privacidad — Smart Innovation Systems" />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://www.smartinnovationsystems.com/privacidad/" />
           </Helmet>
     
           {/* Header */}
