@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <ParallaxProvider>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<SmartInnovationPage />} />
+            <Route path="" element={<SmartInnovationPage />} />
             <Route path="/privacidad" element={<PrivacyPolicy />} />
             <Route path="/condicionesservicio" element={<CondicionesServicio />} />
             <Route path="/eliminaciondatos" element={<EliminacionDatos />} />
